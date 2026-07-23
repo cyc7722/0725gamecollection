@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>租稅小達人！程式設計大挑戰-精選作品展示</title>
+  <style>
+    :root {
+      --bg: #f7f4ed;
+      --ink: #18231d;
+      --muted: #6f776f;
+      --accent: #bf5b3f;
+      --line: rgba(24, 35, 29, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 8% 0%, rgba(191, 91, 63, 0.16), transparent 28rem),
+                  radial-gradient(circle at 100% 15%, rgba(52, 115, 91, 0.15), transparent 30rem),
+                  var(--bg);
+    }
+    .shell {
+      width: min(1240px, calc(100% - 32px));
+      margin: auto;
+    }
+    header { padding: 48px 0 24px; }
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 900;
+      letter-spacing: .18em;
+      font-size: 12px;
+    }
+    h1 {
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1.1;
+      letter-spacing: -.03em;
+      margin: 12px 0;
+    }
+    .intro {
+      color: var(--muted);
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+      padding-bottom: 60px;
+    }
+    .card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.85);
+      box-shadow: 0 16px 45px rgba(28, 39, 32, .08);
+      transition: .25s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 25px 60px rgba(28, 39, 32, .13);
+    }
+    .card > a { text-decoration: none; color: inherit; }
+    .thumb-wrap {
+      position: relative;
+      aspect-ratio: 16/10;
+      overflow: hidden;
+      background: linear-gradient(135deg, #dbe4dc, #f1d7ca);
+    }
+    .thumb {
+      position: relative;
+      z-index: 3;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    iframe {
+      position: absolute;
+      z-index: 2;
+      inset: 0;
+      width: 160%;
+      height: 160%;
+      border: 0;
+      transform: scale(.625);
+      transform-origin: top left;
+      pointer-events: none;
+      background: #fff;
+    }
+    .fallback {
+      position: absolute;
+      z-index: 1;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+    }
+    .fallback b { font-size: 32px; }
+    .fallback span { font-size: 20px; font-weight: 900; }
+    .fallback small { color: var(--muted); }
+    .overlay {
+      position: absolute;
+      z-index: 4;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      background: rgba(16, 27, 21, .48);
+      color: white;
+      font-weight: 900;
+      opacity: 0;
+      transition: .2s;
+    }
+    .card:hover .overlay { opacity: 1; }
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px;
+    }
+    .id {
+      display: grid;
+      place-items: center;
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      background: #eadfd2;
+      color: var(--accent);
+      font-weight: 900;
+    }
+    h2 { margin: 0; font-size: 21px; }
+    p { margin: 4px 0 0; color: var(--muted); }
+    .go {
+      margin-left: auto;
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 900;
+      text-decoration: none;
+      border-bottom: 1px solid;
+    }
+    @media(max-width: 768px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="shell">
+    <div class="eyebrow">SELECTED GALLERY</div>
+    <h1>租稅小達人！程式設計大挑戰-精選作品展示</h1>
+    <p class="intro">共 4 件指定 Canva 網站作品，點擊縮圖即可前往完整頁面。</p>
+  </header>
+
+  <main class="shell">
+    <section class="grid">
+      <!-- B01 林宥衡 房屋稅 -->
+      <article class="card">
+        <a href="https://hsuan.my.canva.site/cdxp9qh7btmqy37g" target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap">
+            <img class="thumb" src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdxp9qh7btmqy37g" data-sources="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdxp9qh7btmqy37g||https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhsuan.my.canva.site%2Fcdxp9qh7btmqy37g?w=1200||https://api.microlink.io/?url=https%3A%2F%2Fhsuan.my.canva.site%2Fcdxp9qh7btmqy37g&screenshot=true&meta=false&embed=screenshot.url" data-index="0" alt="B01 林宥衡 房屋稅" loading="lazy" onerror="nextSource(this)">
+            <iframe src="https://hsuan.my.canva.site/cdxp9qh7btmqy37g" title="B01 林宥衡" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+            <div class="fallback"><b>B01</b><span>林宥衡</span><small>點擊開啟作品</small></div>
+            <div class="overlay">開啟網站 ↗</div>
+          </div>
+        </a>
+        <div class="meta">
+          <div class="id">B01</div>
+          <div>
+            <h2>林宥衡</h2>
+            <p>房屋稅</p>
+          </div>
+          <a class="go" href="https://hsuan.my.canva.site/cdxp9qh7btmqy37g" target="_blank" rel="noopener noreferrer">前往瀏覽</a>
+        </div>
+      </article>
+
+      <!-- B08 關宇硯 雲端發票 -->
+      <article class="card">
+        <a href="https://hsuan.my.canva.site/cdxnyyka0ynhe2nc" target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap">
+            <img class="thumb" src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdxnyyka0ynhe2nc" data-sources="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdxnyyka0ynhe2nc||https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhsuan.my.canva.site%2Fcdxnyyka0ynhe2nc?w=1200||https://api.microlink.io/?url=https%3A%2F%2Fhsuan.my.canva.site%2Fcdxnyyka0ynhe2nc&screenshot=true&meta=false&embed=screenshot.url" data-index="0" alt="B08 關宇硯 雲端發票" loading="lazy" onerror="nextSource(this)">
+            <iframe src="https://hsuan.my.canva.site/cdxnyyka0ynhe2nc" title="B08 關宇硯" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+            <div class="fallback"><b>B08</b><span>關宇硯</span><small>點擊開啟作品</small></div>
+            <div class="overlay">開啟網站 ↗</div>
+          </div>
+        </a>
+        <div class="meta">
+          <div class="id">B08</div>
+          <div>
+            <h2>關宇硯</h2>
+            <p>雲端發票</p>
+          </div>
+          <a class="go" href="https://hsuan.my.canva.site/cdxnyyka0ynhe2nc" target="_blank" rel="noopener noreferrer">前往瀏覽</a>
+        </div>
+      </article>
+
+      <!-- B20 程凡宸 地價稅 -->
+      <article class="card">
+        <a href="https://hsuan.my.canva.site/cdxsywsz8d0kfzxg" target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap">
+            <img class="thumb" src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdxsywsz8d0kfzxg" data-sources="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdxsywsz8d0kfzxg||https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhsuan.my.canva.site%2Fcdxsywsz8d0kfzxg?w=1200||https://api.microlink.io/?url=https%3A%2F%2Fhsuan.my.canva.site%2Fcdxsywsz8d0kfzxg&screenshot=true&meta=false&embed=screenshot.url" data-index="0" alt="B20 程凡宸 地價稅" loading="lazy" onerror="nextSource(this)">
+            <iframe src="https://hsuan.my.canva.site/cdxsywsz8d0kfzxg" title="B20 程凡宸" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+            <div class="fallback"><b>B20</b><span>程凡宸</span><small>點擊開啟作品</small></div>
+            <div class="overlay">開啟網站 ↗</div>
+          </div>
+        </a>
+        <div class="meta">
+          <div class="id">B20</div>
+          <div>
+            <h2>程凡宸</h2>
+            <p>地價稅</p>
+          </div>
+          <a class="go" href="https://hsuan.my.canva.site/cdxsywsz8d0kfzxg" target="_blank" rel="noopener noreferrer">前往瀏覽</a>
+        </div>
+      </article>
+
+      <!-- A12 楊昕澄 雲端發票 -->
+      <article class="card">
+        <a href="https://hsuan.my.canva.site/cdv4jjmhkq760bvm" target="_blank" rel="noopener noreferrer">
+          <div class="thumb-wrap">
+            <img class="thumb" src="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdv4jjmhkq760bvm" data-sources="https://image.thum.io/get/width/1200/crop/750/noanimate/https://hsuan.my.canva.site/cdv4jjmhkq760bvm||https://s.wordpress.com/mshots/v1/https%3A%2F%2Fhsuan.my.canva.site%2Fcdv4jjmhkq760bvm?w=1200||https://api.microlink.io/?url=https%3A%2F%2Fhsuan.my.canva.site%2Fcdv4jjmhkq760bvm&screenshot=true&meta=false&embed=screenshot.url" data-index="0" alt="A12 楊昕澄 雲端發票" loading="lazy" onerror="nextSource(this)">
+            <iframe src="https://hsuan.my.canva.site/cdv4jjmhkq760bvm" title="A12 楊昕澄" loading="lazy" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+            <div class="fallback"><b>A12</b><span>楊昕澄</span><small>點擊開啟作品</small></div>
+            <div class="overlay">開啟網站 ↗</div>
+          </div>
+        </a>
+        <div class="meta">
+          <div class="id">A12</div>
+          <div>
+            <h2>楊昕澄</h2>
+            <p>雲端發票</p>
+          </div>
+          <a class="go" href="https://hsuan.my.canva.site/cdv4jjmhkq760bvm" target="_blank" rel="noopener noreferrer">前往瀏覽</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    function nextSource(img) {
+      const sources = (img.dataset.sources || '').split('||').filter(Boolean);
+      let currentIndex = Number(img.dataset.index || 0) + 1;
+      if (currentIndex < sources.length) {
+        img.dataset.index = String(currentIndex);
+        img.src = sources[currentIndex];
+      } else {
+        // 若第三方縮圖服務全部失敗，隱藏 <img> 標籤，讓底層的 iframe 或 fallback 卡片顯示[cite: 1, 2]
+        img.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
